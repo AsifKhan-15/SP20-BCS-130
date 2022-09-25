@@ -1,0 +1,173 @@
+* {
+  font-family: Verdana, sans-serif;
+}
+
+.split {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-image: url("./Assets/back2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.split1 {
+  height: 100%;
+  width: 80%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-image: url("./Assets/back.jpg");
+  background-size: cover;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: grey;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: black;
+}
+
+#picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#name {
+  float: left;
+  padding-top: 5%;
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: Verdana, sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+#Desig {
+  float: left;
+  padding-bottom: 10%;
+  margin-left: 25%;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+#objectives {
+  margin-right: 20px;
+  padding-left: 5%;
+  padding-bottom: 10px;
+  font-size: 12px;
+  text-justify: distribute-all-lines;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+}
+
+#edu {
+  margin-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  font-size: 12px;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+}
+
+#comm {
+  margin-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  font-size: 12px;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+}
+
+#skills {
+  margin-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  font-size: 12px;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+}
+
+#project {
+  margin-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  font-size: 12px;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+}
+
+#research {
+  margin-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  font-size: 12px;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+}
+
+#location {
+  font-size: 12px;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+}
+
+#profile {
+  padding: 15px;
+  margin-right: 20px;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+  color: black;
+}
+
+#email {
+  padding: 15px;
+  margin-right: 20px;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+  color: black;
+}
+
+#int {
+  padding: 15px;
+}
+
+#Contct {
+  padding: 15px;
+}
+
+h2 {
+  color: gold;
+}
+
+a {
+  font-size: small;
+  color: black;
+}
+
+a:hover {
+  font-size: small;
+  font-weight: bold;
+}
+
+.svg-image {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
