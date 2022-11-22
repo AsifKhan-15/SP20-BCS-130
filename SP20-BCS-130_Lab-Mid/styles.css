@@ -1,0 +1,92 @@
+.body {
+  margin: 0%;
+  padding: 50px;
+}
+
+.container {
+  flex-wrap: wrap;
+}
+
+.header {
+  align-content: center;
+  align-self: center;
+}
+
+.btn {
+  float: right;
+  margin-top: 10px;
+}
+
+.navbar-nav {
+  text-decoration: solid;
+}
+
+.nav-item {
+  align-items: center;
+  border-bottom: greenyellow;
+}
+
+.topstories {
+  background-color: #3e69ad;
+  margin-left: 20%;
+  align-items: flex-start;
+  float: left;
+  color: aliceblue;
+  padding: 5px;
+}
+
+.ians {
+  background-color: #3e69ad;
+  margin-left: 30%;
+  align-items: flex-start;
+  float: left;
+  color: aliceblue;
+  padding: 5px;
+}
+
+#news1 {
+  margin-left: 10%;
+  float: left;
+  position: absolute;
+  bottom: 30px;
+  color: black;
+}
+
+#news2 {
+  /* padding-top: 5%; */
+  margin-right: 25%;
+  float: right;
+  margin-top: 30px;
+}
+
+#left {
+  flex-direction: column;
+}
+
+.content {
+  margin-left: 10%;
+  position: relative;
+  padding-top: 35%;
+  padding-bottom: 10%;
+}
+
+#per {
+  position: absolute;
+  top: 80%;
+  color: aliceblue;
+  padding-left: 20px;
+}
+
+#per2 {
+  position: absolute;
+  top: 80%;
+  color: aliceblue;
+  padding-left: 20px;
+}
+
+#per3 {
+  position: absolute;
+  top: 80%;
+  color: aliceblue;
+  padding-left: 20px;
+}
