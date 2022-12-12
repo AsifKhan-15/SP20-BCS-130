@@ -1,0 +1,17 @@
+#menu {
+  display: flex;
+  background-color: #4b45a3;
+  margin: 0;
+  justify-content: center;
+}
+#menu li {
+  padding: 20px;
+  display: inline;
+}
+#menu li a {
+  font-weight: bolder;
+  font-size: large;
+  color: beige;
+  text-decoration: none;
+  text-decoration-style: solid;
+}
