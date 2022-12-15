@@ -2,6 +2,7 @@ import React from "react";
 const SignUp = () => {
   return (
     <div>
+      <h1> Sign Up </h1>
       <button>Sign Up</button>
       <div>
         <label>First Name:</label>
