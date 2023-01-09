@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    gap: 10px;
+    margin-top: 80px;
+}
+
+.nav div {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  mix-blend-mode: normal;
+  opacity: 0.17;
+}
+
+.nav a.active {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+    .nav {
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav {
+        margin-top: -10px;
+    }
+}

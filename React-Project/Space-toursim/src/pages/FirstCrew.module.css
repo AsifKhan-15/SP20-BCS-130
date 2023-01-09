@@ -1,0 +1,19 @@
+.crew {
+    background-image: url("/public/crew/background-crew-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 900px) {
+    .crew {
+        background-image: url("/public/crew/background-crew-tablet.jpg");
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .crew {
+        background-image: url("/public/crew/background-crew-mobile.jpg");
+    }
+}

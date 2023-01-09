@@ -1,0 +1,50 @@
+.launch-text {
+  width: 470px;
+}
+
+.launch-text h2 {
+  font-family: "Barlow Condensed";
+  font-weight: 400;
+  font-size: 16px;
+  color: #d0d6f9;
+  margin-bottom: 10px;
+}
+
+.launch-text h3 {
+  font-family: "Bellefair";
+  font-weight: 400;
+  font-size: 56px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.launch-text p {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 18px;
+  color: #d0d6f9;
+}
+
+@media screen and (max-width: 900px) {
+  .launch-text {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .launch-text {
+    width: 327px;
+  }
+
+  .launch-text p {
+    font-size: 15px;
+  }
+
+  .launch-text h2 {
+    font-size: 14px;
+  }
+
+  .launch-text h3 {
+    font-size: 24px;
+  }
+}

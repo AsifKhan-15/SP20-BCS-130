@@ -1,0 +1,41 @@
+.launch {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grp {
+    display: flex;
+    gap: 40px;
+    margin-top: 150px;
+}
+
+@media screen and (min-width: 1200px) {
+    .landscrape {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .portrait {
+        display: none;
+    }
+
+    .landscrape {
+        margin-top: 50px;
+    }
+
+    .launch {
+        flex-direction: column-reverse;
+    }
+
+    .landscrape {
+        width: 100%;
+    }
+
+    .grp {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+}

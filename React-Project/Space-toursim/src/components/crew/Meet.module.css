@@ -1,0 +1,42 @@
+.meet {
+    margin-left: 130px;
+}
+
+.meet h2 {
+  font-family: "Barlow Condensed";
+  font-weight: 400;
+  font-size: 28px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 80px;
+}
+
+.meet h2 span {
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .meet {
+        margin-left: 30px;
+    }
+
+    .meet h2 {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .meet {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .meet h2 {
+        font-size: 16px;
+        margin-top: -10px;
+    }
+}

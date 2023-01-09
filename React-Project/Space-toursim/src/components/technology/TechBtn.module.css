@@ -1,0 +1,67 @@
+.nav div {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding-top: 20px;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  border: 1px solid #ffffff;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 110px;
+}
+
+.nav a {
+  font-family: "Bellefair";
+  font-weight: 400;
+  font-size: 32px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: center;
+  display: flex;
+  color: #fff;
+}
+
+.nav a.active {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #0b0d17;
+}
+
+@media screen and (max-width: 900px) {
+    .nav {
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav div {
+        height: 60px;
+        width: 60px;
+        padding-top: 15px;
+    }
+
+    .nav a.active {
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav div {
+        height: 40px;
+        width: 40px;
+        padding-top: 20px;
+    }
+
+    .nav a {
+        font-size: 16px;
+    }
+
+    .nav a.active {
+        height: 60px;
+    }
+}
